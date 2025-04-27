@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>｟ᴬᵁᴿᴬ°᭄rro_311࿐｠</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@500;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      outline: none;
+      text-decoration: none;
+    }
+
+    body {
+      background: linear-gradient(135deg, #1a1a1a, #000000);
+      font-family: 'Cairo', sans-serif;
+      color: #fff;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 20px;
+      overflow-x: hidden;
+    }
+
+    .profile-img {
+      width: 150px;
+      height: 150px;
+      margin-top: 50px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 4px solid #fff;
+      box-shadow: 0 0 20px #00f0ff88;
+      animation: fadeIn 1s ease-in-out forwards;
+    }
+
+    .bio {
+      margin-top: 20px;
+      text-align: center;
+      font-size: 22px;
+      color: #cccccc;
+      line-height: 1.8;
+      animation: fadeIn 1.5s ease-in-out forwards;
+    }
+
+    .name {
+      font-size: 30px;
+      color: #00f0ff;
+      font-weight: bold;
+      margin-top: 20px;
+      animation: fadeIn 2s ease-in-out forwards;
+    }
+
+    .social-list {
+      margin-top: 40px;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      width: 100%;
+      max-width: 400px;
+      animation: fadeInUp 2s ease-in-out forwards;
+    }
+
+    .social-item {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      padding: 15px 20px;
+      font-size: 20px;
+      font-weight: bold;
+      border-radius: 15px;
+      color: white;
+      background: linear-gradient(45deg, #6a11cb, #2575fc);
+      box-shadow: 0 8px 20px rgba(0,0,0,0.5);
+      transition: all 0.4s ease;
+      position: relative;
+      outline: none;
+      border: none;
+    }
+
+    .social-item:hover {
+      transform: translateY(-5px) scale(1.02);
+      box-shadow: 0 12px 25px rgba(0,0,0,0.7);
+    }
+
+    .social-item:active {
+      transform: scale(0.96);
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.6);
+    }
+
+    .social-item img {
+      width: 28px;
+      height: 28px;
+    }
+
+    .instagram {
+      background: linear-gradient(45deg, #fd5949, #d6249f, #285AEB);
+    }
+
+    .tiktok {
+      background: linear-gradient(45deg, #000000, #ff0050, #00f2ea);
+    }
+
+    .snapchat {
+      background: linear-gradient(45deg, #ffe600, #fff700);
+      color: black;
+    }
+
+    @keyframes fadeIn {
+      0% {opacity: 0; transform: scale(0.8);}
+      100% {opacity: 1; transform: scale(1);}
+    }
+
+    @keyframes fadeInUp {
+      0% {opacity: 0; transform: translateY(50px);}
+      100% {opacity: 1; transform: translateY(0);}
+    }
+
+    /* إزالة التحديد الأزرق */
+    a:focus, .social-item:focus {
+      outline: none;
+      box-shadow: none;
+    }
+
+    /* إزالة التأثير الأزرق عند الضغط */
+    a, .social-item {
+      -webkit-tap-highlight-color: transparent; /* لأجهزة المحمول */
+    }
+
+    /* Responsive */
+    @media (max-width: 400px) {
+      .bio {
+        font-size: 18px;
+      }
+      .social-item {
+        font-size: 18px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <img src="img/poto2.png" alt="صورتي" class="profile-img">
+
+  <div class="name">
+    ⟬⚔أّلَقأّئدٍ عٌلَشُـ⚔⟭
+  </div>
+
+  <div class="bio">
+    العَزْلَة وَطَنٌ لِلأرْوَاحِ الرّاقِيَة<br>
+    𝐀 𝐡𝐨𝐦𝐞 𝐟𝐨𝐫 𝐞𝐥𝐞𝐯𝐚𝐭𝐞𝐝 𝐬𝐨𝐮𝐥𝐬
+  </div>
+
+  <div class="social-list">
+    <div class="bio">حساباتي:</div>
+    <a href="https://instagram.com/rro_311" target="_blank" class="social-item instagram">
+      <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="Instagram">
+      إنستجرام
+    </a>
+    <a href="https://tiktok.com/@rro_311" target="_blank" class="social-item tiktok">
+      <img src="https://cdn-icons-png.flaticon.com/512/3046/3046121.png" alt="TikTok">
+      تيك توك
+    </a>
+   <a href="https://www.snapchat.com/add/m09x5" target="_blank" class="social-item snapchat">
+  <img src="https://cdn-icons-png.flaticon.com/512/2111/2111803.png" alt="Snapchat">
+  سناب شات
+</a>
+    </a>
+  </div>
+
+</body>
+</html>
